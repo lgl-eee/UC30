@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+  real a
+  real b  
+  real c
+  real d
+
+  escreva ("escreva o valor da casa: ")
+  leia(a)
+  escreva("escreva o salário: ")
+  leia(b)
+  escreva("em quantos anos vai pagar? ")  
+  leia(c)
+
+  escreva("Valor da prestação mensal: ")
+  escreva(a / (c * 12))
+  se(a / (c * 12) < 0.30 * b){
+    escreva("\n emprestimo aceito")           //vi esse \n no google para quebrar linha//
+  }senao{
+    escreva("\n emprestimo negado")
+  }
+  }
+}
