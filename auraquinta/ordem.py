@@ -1,0 +1,16 @@
+import random
+
+numeros = [45, 12, 78, 23 , 56]
+print("lista original:", numeros)
+
+#sort: crescente
+numeros.sort()
+print("Após sort():", numeros)
+
+#sort: decrescente
+numeros.sort(reverse=True)
+print("Após sort():", numeros)
+
+#random: embaralhar
+random.shuffle(numeros)
+print("lista embaralhada:", numeros)
