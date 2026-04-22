@@ -10,7 +10,6 @@ loginUsuario = "aa"
 loginSenha = "a"
 
 cadastroDicionario = {
-    "teste": "123",
     cadastro: senha
     }
 
